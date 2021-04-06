@@ -149,7 +149,7 @@ public class HttpLoggingInterceptor implements Interceptor {
                 logHeader(headers, i);
             }
 
-            if (!logBody || !HttpHeaders.hasBody(response)) {
+            if (!logBody || !HttpHeaders.promisesBody(response)) {
                 logger.info("<-- END HTTP");
             } else if (bodyHasUnknownEncoding(response.headers())) {
                 logger.info("<-- END HTTP (encoded body omitted)");
