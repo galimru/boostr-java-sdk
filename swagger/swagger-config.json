@@ -1,0 +1,12 @@
+{
+    "library": "retrofit2",
+    "artifactId": "boostr-java-sdk",
+    "groupId": "com.github.galimru.boostrsdk",
+    "invokerPackage": "com.github.galimru.boostrsdk",
+    "apiPackage": "com.github.galimru.boostrsdk.api",
+    "modelPackage": "com.github.galimru.boostrsdk.model",
+    "java8": true,
+    "dateLibrary": "java8",
+    "hideGenerationTimestamp": true
+}
+
