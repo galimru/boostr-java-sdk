@@ -51,9 +51,6 @@ public class DealResponse {
   @SerializedName("agency_name")
   private String agencyName = null;
 
-  @SerializedName("company_id")
-  private Integer companyId = null;
-
   @SerializedName("created_at")
   private OffsetDateTime createdAt = null;
 
@@ -61,7 +58,7 @@ public class DealResponse {
   private OffsetDateTime updatedAt = null;
 
   @SerializedName("currency")
-  private Object currency = null;
+  private String currency = null;
 
   @SerializedName("budget")
   private BigDecimal budget = null;
@@ -196,14 +193,6 @@ public class DealResponse {
     this.agencyName = agencyName;
   }
 
-  public Integer getCompanyId() {
-    return companyId;
-  }
-
-  public void setCompanyId(Integer companyId) {
-    this.companyId = companyId;
-  }
-
   public OffsetDateTime getCreatedAt() {
     return createdAt;
   }
@@ -220,11 +209,11 @@ public class DealResponse {
     this.updatedAt = updatedAt;
   }
 
-  public Object getCurrency() {
+  public String getCurrency() {
     return currency;
   }
 
-  public void setCurrency(Object currency) {
+  public void setCurrency(String currency) {
     this.currency = currency;
   }
 

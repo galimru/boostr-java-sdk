@@ -4,7 +4,6 @@ import com.github.galimru.boostrsdk.exceptions.ApiException;
 import com.github.galimru.boostrsdk.http.Credentials;
 import com.github.galimru.boostrsdk.logging.Level;
 import com.github.galimru.boostrsdk.model.User;
-import com.github.galimru.boostrsdk.model.UserList;
 import com.github.galimru.boostrsdk.model.UserResponse;
 import org.junit.Assert;
 import org.junit.BeforeClass;

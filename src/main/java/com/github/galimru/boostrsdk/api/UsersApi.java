@@ -2,7 +2,6 @@ package com.github.galimru.boostrsdk.api;
 
 import com.github.galimru.boostrsdk.model.DateCondition;
 import com.github.galimru.boostrsdk.model.User;
-import com.github.galimru.boostrsdk.model.UserList;
 import com.github.galimru.boostrsdk.model.UserResponse;
 import retrofit2.Call;
 import retrofit2.http.*;
